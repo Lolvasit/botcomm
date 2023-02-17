@@ -1,0 +1,1520 @@
+test
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 308, in join_channel
+    await client.send_message(chat_id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 308, in join_channel
+    await client.send_message(chat_id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 308, in join_channel
+    await client.send_message(chat_id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+channel https://t.me/joinchat/9SBFfSlkXZ44NTli, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 437, in get_input_entity
+    await self._get_entity_from_string(peer))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 574, in _get_entity_from_string
+    raise ValueError(
+ValueError: Cannot find any entity corresponding to "https://t.me/joinchat/9SBFfSlkXZ44NTli"
+
+channel https://t.me/joinchat/9SBFfSlkXZ44NTli, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 437, in get_input_entity
+    await self._get_entity_from_string(peer))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 574, in _get_entity_from_string
+    raise ValueError(
+ValueError: Cannot find any entity corresponding to "https://t.me/joinchat/9SBFfSlkXZ44NTli"
+
+channel https://t.me/joinchat/VMLlgiAXZ8Q2ZTJi, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 437, in get_input_entity
+    await self._get_entity_from_string(peer))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 574, in _get_entity_from_string
+    raise ValueError(
+ValueError: Cannot find any entity corresponding to "https://t.me/joinchat/VMLlgiAXZ8Q2ZTJi"
+
+channel https://t.me/joinchat/VMLlgiAXZ8Q2ZTJi, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 437, in get_input_entity
+    await self._get_entity_from_string(peer))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 574, in _get_entity_from_string
+    raise ValueError(
+ValueError: Cannot find any entity corresponding to "https://t.me/joinchat/VMLlgiAXZ8Q2ZTJi"
+
+channel https://t.me/horevica, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 271 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/gistapapapa, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 270 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/ukropernews, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 269 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/ukr_sof, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 268 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/ButusovPlus, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 271 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/ButusovPlus, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 267 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/bro_revisor, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 270 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/bro_revisor, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 266 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/zahidwtf_official, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 269 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/zahidwtf_official, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 265 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/regionality, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 268 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/regionality, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 264 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/BilaTserkvaBT, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 267 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/BilaTserkvaBT, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 263 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/Chennel_33TV, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 266 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/Chennel_33TV, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 262 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/nnxkkksl, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 265 seconds is required (caused by JoinChannelRequest)
+
+channel https://t.me/nnxkkksl, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 285, in join_channel
+    res = await client(JoinChannelRequest(await client.get_input_entity(link)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 52, in _call
+    raise errors.FloodWaitError(request=r, capture=diff)
+telethon.errors.rpcerrorlist.FloodWaitError: A wait of 261 seconds is required (caused by JoinChannelRequest)
+
+channel arkbFg-HLAZlYjJi, account +7 991 736 1305.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 248, in join_channel
+    res = await client(ImportChatInviteRequest(hash=link))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.UserAlreadyParticipantError: The authenticated user is already a participant of the chat (caused by ImportChatInviteRequest)
+
+channel arkbFg-HLAZlYjJi, account main.session
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 248, in join_channel
+    res = await client(ImportChatInviteRequest(hash=link))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.UserAlreadyParticipantError: The authenticated user is already a participant of the chat (caused by ImportChatInviteRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.UserBannedInChannelError: You're banned from sending messages in supergroups/channels (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 567, in connect
+    me = await self.get_me()
+         ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 161, in get_me
+    me = (await self(
+          ^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 85, in _call
+    self.session.process_entities(result)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 301, in process_entities
+    c.executemany(
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 476, in my_event_handler
+    await acc.disconnect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 692, in _disconnect_coro
+    self.session.set_update_state(0, types.updates.State(**ss, unread_count=0))
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 214, in set_update_state
+    self._execute('insert or replace into update_state values (?,?,?,?,?)',
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 253, in _execute
+    return c.execute(stmt, values).fetchone()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 471, in my_event_handler
+    await acc.connect()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\telegrambaseclient.py", line 540, in connect
+    self.session.auth_key = self._sender.auth_key
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\sessions\sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+test
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.UserBannedInChannelError: You're banned from sending messages in supergroups/channels (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 829, in send_message
+    entity, reply_to = await self._get_comment_data(entity, comment_to)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 616, in _get_comment_data
+    r = await self(functions.messages.GetDiscussionMessageRequest(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.MsgIdInvalidError: The message ID used in the peer was invalid (caused by GetDiscussionMessageRequest)
+
+Traceback (most recent call last):
+  File "C:\Users\пользователь\Desktop\Бот коменнст\comments\main.py", line 498, in my_event_handler
+    await acc.send_message(event.message.chat.id, message=settings["msg"], comment_to=post)
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\messages.py", line 890, in send_message
+    result = await self(request)
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\пользователь\AppData\Roaming\Python\Python311\site-packages\telethon\client\users.py", line 84, in _call
+    result = await future
+             ^^^^^^^^^^^^
+telethon.errors.rpcerrorlist.ChannelPrivateError: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SendMessageRequest)
+
